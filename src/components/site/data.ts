@@ -12,7 +12,7 @@ export const BRAND = {
   city: "Indonesia",
   address: "Indonesia",
   year: "2025",
-  heroImg: "/assets/wedding1.jpg",
+  heroImg: "/img/wedding1.jpg",
   metaTitle: "Revelry Planner — Wedding & Event Planner Profesional",
   metaDesc: "Jadikan momen pernikahan dan event Anda tak terlupakan bersama Revelry Planner. Perencanaan menyeluruh, eksekusi profesional.",
 };
@@ -67,15 +67,15 @@ export const SERVICES = [
 ];
 
 export const GALLERY = [
-  { src: "/assets/wedding2.jpg", cat: "Wedding", h: "tall" },
-  { src: "/assets/wedding3.jpg", cat: "Dekorasi", h: "short" },
-  { src: "/assets/wedding4.jpg", cat: "Wedding", h: "short" },
-  { src: "/assets/wedding5.jpg", cat: "Dekorasi", h: "tall" },
-  { src: "/assets/wedding6.jpg", cat: "Wedding", h: "tall" },
-  { src: "/assets/wedding7.jpg", cat: "Event", h: "short" },
-  { src: "/assets/wedding8.jpg", cat: "Dokumentasi", h: "short" },
-  { src: "/assets/wedding9.jpg", cat: "Wedding", h: "tall" },
-  { src: "/assets/wedding1.jpg", cat: "Dokumentasi", h: "short" },
+  { src: "/img/wedding2.jpg", cat: "Wedding", h: "tall" },
+  { src: "/img/wedding3.jpg", cat: "Dekorasi", h: "short" },
+  { src: "/img/wedding4.jpg", cat: "Wedding", h: "short" },
+  { src: "/img/wedding5.jpg", cat: "Dekorasi", h: "tall" },
+  { src: "/img/wedding6.jpg", cat: "Wedding", h: "tall" },
+  { src: "/img/wedding7.jpg", cat: "Event", h: "short" },
+  { src: "/img/wedding8.jpg", cat: "Dokumentasi", h: "short" },
+  { src: "/img/wedding9.jpg", cat: "Wedding", h: "tall" },
+  { src: "/img/wedding1.jpg", cat: "Dokumentasi", h: "short" },
 ];
 
 export const GALLERY_TABS = ["Semua", "Wedding", "Dekorasi", "Event", "Dokumentasi"] as const;
