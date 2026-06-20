@@ -18,7 +18,7 @@ export function Hero() {
       >
         <img
           src={HERO_IMG}
-          alt="Pernikahan syar'i elegan"
+          alt="Revelry Planner — Wedding & Event"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-black/55 via-black/35 to-black/55" />
@@ -41,9 +41,9 @@ export function Hero() {
           transition={{ duration: 0.8, delay: 0.25 }}
           className="font-display text-white text-[40px] leading-[1.05] md:text-[64px] md:leading-[1.05] max-w-4xl tracking-tight"
         >
-          Pernikahan Syar'i yang
+          Meriahkan Pestamu
           <br />
-          <span className="italic text-[#e7d6b8]">Indah, Sakral,</span> dan Tak Terlupakan
+          <span className="italic text-[#e8d0c4]">Bersama Kami</span>
         </motion.h1>
 
         <motion.p
@@ -62,7 +62,7 @@ export function Hero() {
           className="mt-10 flex flex-col sm:flex-row items-center gap-4"
         >
           <a
-            href={waLink(`Halo ${BRAND.nameShort}, saya ingin konsultasi gratis untuk pernikahan saya.`)}
+            href={waLink(`Halo ${BRAND.nameShort}, saya ingin konsultasi gratis untuk event/pernikahan saya.`)}
             target="_blank"
             rel="noopener noreferrer"
             className="group relative overflow-hidden bg-gold text-white px-8 py-4 text-xs tracking-[0.25em] uppercase inline-flex items-center gap-3 transition-colors"

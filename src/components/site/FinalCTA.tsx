@@ -37,9 +37,9 @@ export function FinalCTA() {
         >
           <div className="eyebrow text-gold mb-5">Langkah Pertama</div>
           <h2 className="font-display text-4xl md:text-6xl leading-[1.05]">
-            Siap Mewujudkan
+            Siap Meriahkan
             <br />
-            <span className="italic text-[#e7d6b8]">Pernikahan Impian</span> Anda?
+            <span className="italic text-[#e8d0c4]">Pesta Impian</span> Anda?
           </h2>
           <p className="mt-6 text-white/75 text-base md:text-lg max-w-xl mx-auto leading-relaxed">
             Konsultasi pertama gratis. Tidak ada kewajiban. Hanya percakapan tentang hari spesial Anda.

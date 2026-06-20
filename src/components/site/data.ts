@@ -6,13 +6,13 @@ export const BRAND = {
   nameShort: "Revelry",
   nameDisplay: ["Revelry", "Planner", ""] as const,
   niche: "Wedding & Event Planner",
-  tagline: "Wedding & Event Planner — Jadikan Momen Anda Tak Terlupakan",
-  heroDesc: "Revelry Planner hadir untuk mewujudkan pesta impian Anda — dari pernikahan sakral hingga big event berkesan — dengan perencanaan menyeluruh dan eksekusi profesional.",
-  aboutDesc: "Revelry Planner adalah layanan planner & organizer profesional yang mengkhususkan diri dalam wedding, event, dan big event. Kami percaya setiap momen perayaan layak dirayakan dengan indah. Dengan tim berpengalaman dan pendekatan personal, kami memastikan setiap detail terlaksana sempurna — sehingga Anda bisa menikmati hari istimewa tanpa khawatir.",
+  tagline: "Meriahkan Pestamu Bersama Kami",
+  heroDesc: "Revelry Planner hadir untuk menjadikan setiap perayaan Anda luar biasa — dari pernikahan impian hingga big event berkesan — dengan perencanaan menyeluruh dan eksekusi profesional.",
+  aboutDesc: "Revelry Planner adalah layanan planner & organizer profesional untuk wedding, event, dan big event. Kami percaya setiap pesta layak dirayakan dengan meriah dan berkesan. Dengan tim berpengalaman dan pendekatan personal, kami pastikan setiap detail terlaksana sempurna — sehingga Anda tinggal hadir, menikmati, dan bersinar di hari istimewa.",
   city: "Indonesia",
   address: "Indonesia",
   year: "2025",
-  heroImg: "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=2000&q=85",
+  heroImg: "/assets/wedding1.jpg",
   metaTitle: "Revelry Planner — Wedding & Event Planner Profesional",
   metaDesc: "Jadikan momen pernikahan dan event Anda tak terlupakan bersama Revelry Planner. Perencanaan menyeluruh, eksekusi profesional.",
 };
@@ -67,15 +67,15 @@ export const SERVICES = [
 ];
 
 export const GALLERY = [
-  { src: "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=800&q=80", cat: "Wedding", h: "tall" },
-  { src: "https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=800&q=80", cat: "Dekorasi", h: "short" },
-  { src: "https://images.unsplash.com/photo-1606800052052-a08af7148866?w=800&q=80", cat: "Wedding", h: "short" },
-  { src: "https://images.unsplash.com/photo-1465495976277-4387d4b0e4a6?w=800&q=80", cat: "Dekorasi", h: "tall" },
-  { src: "https://images.unsplash.com/photo-1583939003579-730e3918a45a?w=800&q=80", cat: "Wedding", h: "tall" },
-  { src: "https://images.unsplash.com/photo-1522673607200-164d1b6ce486?w=800&q=80", cat: "Event", h: "short" },
-  { src: "https://images.unsplash.com/photo-1591604466107-ec97de577aff?w=800&q=80", cat: "Dokumentasi", h: "short" },
-  { src: "https://images.unsplash.com/photo-1525772764200-be829a350797?w=800&q=80", cat: "Wedding", h: "tall" },
-  { src: "https://images.unsplash.com/photo-1532712938310-34cb3982ef74?w=800&q=80", cat: "Dokumentasi", h: "short" },
+  { src: "/assets/wedding2.jpg", cat: "Wedding", h: "tall" },
+  { src: "/assets/wedding3.jpg", cat: "Dekorasi", h: "short" },
+  { src: "/assets/wedding4.jpg", cat: "Wedding", h: "short" },
+  { src: "/assets/wedding5.jpg", cat: "Dekorasi", h: "tall" },
+  { src: "/assets/wedding6.jpg", cat: "Wedding", h: "tall" },
+  { src: "/assets/wedding7.jpg", cat: "Event", h: "short" },
+  { src: "/assets/wedding8.jpg", cat: "Dokumentasi", h: "short" },
+  { src: "/assets/wedding9.jpg", cat: "Wedding", h: "tall" },
+  { src: "/assets/wedding1.jpg", cat: "Dokumentasi", h: "short" },
 ];
 
 export const GALLERY_TABS = ["Semua", "Wedding", "Dekorasi", "Event", "Dokumentasi"] as const;
