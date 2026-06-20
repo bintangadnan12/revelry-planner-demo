@@ -45,34 +45,34 @@
 :root {
   --radius: 0.25rem;
 
-  /* Brand */
-  --bg: #fdfaf7;
-  --gold: #c9a96e;
-  --gold-soft: #e7d6b8;
-  --ink: #2c2c2c;
-  --blush: #f0e6df;
-  --sage: #8b9e7e;
+  /* Brand — Revelry Planner: navy + rose-copper + warm cream */
+  --bg: #faf8f6;
+  --gold: #b8795a;
+  --gold-soft: #e8d0c4;
+  --ink: #1c1f2e;
+  --blush: #f5ece8;
+  --sage: #6b8fa8;
 
   /* shadcn mapped to brand */
-  --background: #fdfaf7;
-  --foreground: #2c2c2c;
+  --background: #faf8f6;
+  --foreground: #1c1f2e;
   --card: #ffffff;
-  --card-foreground: #2c2c2c;
+  --card-foreground: #1c1f2e;
   --popover: #ffffff;
-  --popover-foreground: #2c2c2c;
-  --primary: #c9a96e;
+  --popover-foreground: #1c1f2e;
+  --primary: #b8795a;
   --primary-foreground: #ffffff;
-  --secondary: #f0e6df;
-  --secondary-foreground: #2c2c2c;
-  --muted: #f0e6df;
+  --secondary: #f5ece8;
+  --secondary-foreground: #1c1f2e;
+  --muted: #f5ece8;
   --muted-foreground: #6b6b6b;
-  --accent: #8b9e7e;
+  --accent: #6b8fa8;
   --accent-foreground: #ffffff;
   --destructive: #b91c1c;
   --destructive-foreground: #ffffff;
-  --border: #e9dfd2;
-  --input: #e9dfd2;
-  --ring: #c9a96e;
+  --border: #ead5cc;
+  --input: #ead5cc;
+  --ring: #b8795a;
 }
 
 @layer base {

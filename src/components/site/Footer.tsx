@@ -8,10 +8,10 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-12 gap-10">
           <div className="md:col-span-4">
             <div className="font-display text-3xl text-gold">
-              {BRAND.nameDisplay[0]} <span className="italic">{BRAND.nameDisplay[1]}</span> <span className="text-sage">{BRAND.nameDisplay[2]}</span>
+              {BRAND.nameDisplay[0]} <span className="italic text-gold/80">{BRAND.nameDisplay[1]}</span>
             </div>
             <p className="mt-4 text-sm leading-relaxed text-white/55 max-w-xs italic">
-              Amanah, Estetik, Berkesan — mewujudkan pernikahan syar'i yang tak terlupakan.
+              Profesional, Personal, Berkesan — meriahkan perayaan Anda bersama kami.
             </p>
             <div className="mt-6 flex gap-3">
               {[Instagram, Music2, Youtube].map((I, i) => (
@@ -40,10 +40,10 @@ export function Footer() {
           <div className="md:col-span-2">
             <div className="eyebrow text-gold mb-5">Layanan</div>
             <ul className="space-y-3 text-sm">
-              <li>Wedding Organizer</li>
+              <li>Wedding Planner</li>
+              <li>Event Organizer</li>
               <li>Dekorasi</li>
               <li>Dokumentasi</li>
-              <li>MUA & Busana</li>
               <li>Catering</li>
             </ul>
           </div>
@@ -51,10 +51,10 @@ export function Footer() {
           <div className="md:col-span-2">
             <div className="eyebrow text-gold mb-5">Wilayah</div>
             <ul className="space-y-3 text-sm">
-              <li>{BRAND.city}</li>
+              <li>Seluruh Indonesia</li>
               <li>Jabodetabek</li>
+              <li>Jawa Barat</li>
               <li>Jawa Tengah</li>
-              <li>Lampung</li>
             </ul>
           </div>
 
@@ -83,7 +83,7 @@ export function Footer() {
       <div className="border-t border-white/10">
         <div className="container-x py-6 flex flex-col md:flex-row items-center justify-between gap-3 text-xs text-white/45">
           <div>© {BRAND.year} {BRAND.name}. All rights reserved.</div>
-          <div className="italic font-display text-sm text-gold/70">Barakallahu lakuma</div>
+          <div className="italic font-display text-sm text-gold/70">#meriahkanpestamubersamakami</div>
         </div>
       </div>
     </footer>

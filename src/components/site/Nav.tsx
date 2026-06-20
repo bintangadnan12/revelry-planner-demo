@@ -29,7 +29,7 @@ export function Nav() {
             scrolled ? "text-gold" : "text-white"
           }`}
         >
-          {BRAND.nameDisplay[0]} <span className="italic">{BRAND.nameDisplay[1]}</span> <span className="text-sage">{BRAND.nameDisplay[2]}</span>
+          {BRAND.nameDisplay[0]} <span className="italic text-gold">{BRAND.nameDisplay[1]}</span>
         </a>
 
         <nav className="hidden lg:flex items-center gap-9">
