@@ -73,7 +73,7 @@ export const GALLERY = [
   { src: "/img/wedding5.jpg", cat: "Dekorasi", h: "tall" },
   { src: "/img/wedding6.jpg", cat: "Wedding", h: "tall" },
   { src: "/img/wedding7.jpg", cat: "Event", h: "short" },
-  { src: "/img/wedding8.jpg", cat: "Dokumentasi", h: "short" },
+  { src: "/img/wedding1.jpg", cat: "Wedding", h: "short" },
   { src: "/img/wedding9.jpg", cat: "Wedding", h: "tall" },
   { src: "/img/wedding1.jpg", cat: "Dokumentasi", h: "short" },
 ];
